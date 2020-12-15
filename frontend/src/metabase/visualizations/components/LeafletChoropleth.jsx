@@ -49,9 +49,9 @@ const LeafletChoropleth = ({
       const style = feature => ({
         fillColor: getColor(feature),
         weight: 1,
-        opacity: 0.5,
-        color: "white",
-        fillOpacity: 0.5,
+        opacity: 1,
+        color: "black",
+        fillOpacity: 0.7,
       });
 
       const onEachFeature = (feature, layer) => {
